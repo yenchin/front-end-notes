@@ -1,7 +1,15 @@
 ## 示例代码
 
 ```html
-<html>	<head>		<title>01_helloworld.html</title>	</head>	<body>		<!-- 这是第一个页面 helloworld -->		<font color="red">hello world!</font>	</body></html>
+<html>
+	<head>
+		<title>01_helloworld.html</title>
+	</head>
+	<body>
+		<!-- 这是第一个页面 helloworld -->
+		<font color="red">hello world!</font>
+	</body>
+</html>
 ```
 
 示例代码说明:
@@ -49,7 +57,8 @@ HTML 标记标签通常被称为 HTML 标签，"HTML 标签" 和"HTML 元素" �
 ## HTML 属性
 
 ```html
-<font color="red">hello world!</font>```
+<font color="red">hello world!</font>
+```
 
 属性是 HTML 元素提供的附加信息。
 
@@ -96,7 +105,12 @@ HTML文档 = 网页
 ## HTML 基本结构
 
 ```html
-<html>	<head>	</head>	<body>	</body></html>
+<html>
+	<head>
+	</head>
+	<body>
+	</body>
+</html>
 ```
 
 ## <!DOCTYPE> 声明

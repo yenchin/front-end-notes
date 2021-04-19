@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex</title>
+  <style>
+    .flex-wrapper {
+      height: 50px;
+      display: flex;
+      align-items: center; 
+      background: #6495ed;
+      color: white;
+    }
+    .flex-wrapper div {
+      text-align: center;
+      border-right: 1px solid white;
+    }
+    .flex-wrapper div:last-of-type {
+      border-right: 0;
+    }
+    .flex-wrapper div.wid-50 {
+      width: 50px;
+    }
+  </style>
+</head>
+<body>
+  <section class="flex-wrapper">
+    <div class="wid-50">元素1</div>
+    <div>元素2</div>
+    <div class="wid-50">元素3</div>
+  </section>
+</body>
+</html>
